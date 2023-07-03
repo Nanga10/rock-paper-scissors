@@ -1,9 +1,33 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{ 
-    display: inline; 
+.game-title {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.game-controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 50px;
+  margin: 20px;
+}
+
+#status-element {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  font-size: x-large;
 }

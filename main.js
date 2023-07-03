@@ -11,7 +11,7 @@ let statusEl = document.getElementById("status-element");
 
 btnRock.addEventListener("click", function () {
   handPlayer = "ROCK";
-  handPlayerEl.textContent = "Player" + handPlayer;
+  handPlayerEl.textContent = handPlayer;
   cpuHand();
   gameStatus();
 });
